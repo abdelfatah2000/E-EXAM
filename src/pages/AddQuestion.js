@@ -53,6 +53,8 @@ const AddQuestion = () => {
   
   return (
     <Modal title="Add Question">
+      <div onClick={() => console.log(question)}>fdds</div>
+
       <TextArea label="Question Text" />
       <div className="row mt-26">
         <div className="col-6">

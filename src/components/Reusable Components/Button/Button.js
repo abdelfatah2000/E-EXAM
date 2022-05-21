@@ -3,7 +3,7 @@ import './Button.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Dropdown from '../Dropdown/Dropdown';
 
-const Button = ({color, size, onClick, variant, children, dropdown, list, ml}) => {
+const Button = ({color, size, onClick, variant, children, dropdown, list, onSelect, ml}) => {
     const [dropMenu, setDropMenu] = useState(false);
 
     const SIZES = [
@@ -33,7 +33,7 @@ const Button = ({color, size, onClick, variant, children, dropdown, list, ml}) =
         <div className='flex-align-center'>
             {children} <KeyboardArrowDownIcon fontSize="small"/>
         </div> 
-        <Dropdown list={list} toggle={dropMenu}></Dropdown>
+        <Dropdown onSelect={onSelect} list={list} toggle={dropMenu}></Dropdown>
         </>
             : `${children}`}
     </button>

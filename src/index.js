@@ -4,16 +4,20 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './assets/main.css'
 import './assets/grid.css'
 import Layout from './layout/Layout';
+import { Provider } from 'react-redux';
 import Login from './pages/Login';
+import store from './store'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Provider store={store}>
     <BrowserRouter>
       <Routes>
         <Route path="/app/*" end element={<Layout />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 

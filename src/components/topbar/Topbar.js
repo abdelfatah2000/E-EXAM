@@ -3,6 +3,8 @@ import Button from '../Reusable Components/Button/Button'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SearchField from '../Reusable Components/Search Field/SearchField'
 import './topbar.css'
+import { useDispatch, useSelector } from "react-redux";
+import { level } from '../../actions/index'
 import Dropdown from '../Reusable Components/Dropdown/Dropdown';
 import {useNavigate} from 'react-router-dom'
 import axiosInstance from '../../axios';
@@ -10,6 +12,9 @@ import Cookies from 'js-cookie'
 
 function Topbar() {
   const [dropdownImg, setDropdownImg] = useState(false);
+
+  const level = useSelector((state) => state.level);
+  const dispatch = useDispatch()
   const history = useNavigate();
   const list = [
     'Secondary One',
@@ -30,9 +35,13 @@ function Topbar() {
   axiosInstance.defaults.headers['Authorization'] = null;
   history('/login');
   }
+
+  const selectLevel = (e) => {
+    dispatch(level(e.target.datalist.id))
+  }
   return (
     <div className='topbar__container'>
-      <Button list={list} color="primary" size="large" variant="filled" dropdown>
+      <Button onSelect={selectLevel} list={list} color="primary" size="large" variant="filled" dropdown>
         Secondary One
       </Button>
       <div className='flex'>
