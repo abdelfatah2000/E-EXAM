@@ -1,0 +1,98 @@
+.icon-button{
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    padding: 2px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 0px 8px 0px #0000008f;
+    transition: 0.7s
+}
+
+.icon-button:hover{
+    box-shadow: 1px 0px 16px 0px #0000008f
+}
+
+.iconBtnLabel{
+    cursor: default;
+}
+
+.icon-button-red{
+    color: red
+}
+
+.icon-button-primary{
+    color: var(--first-main-color)
+}
+
+.icon-button-circled-large-primary{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    background-color: var(--first-main-color);
+    color: var(--white)
+}
+
+.icon-button-circled-large-secondary{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    background-color: var(--second-main-color);
+    color: var(--white)
+}
+
+.icon-button-circled-large-red{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    background-color: red;
+    color: var(--white)
+}
+
+.icon-button-circled-large-orange{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    background-color: #E7A600;
+    color: var(--white)
+}
+
+.icon-button-circled-medium-primary{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: var(--first-main-color);
+    color: var(--white)
+}
+
+.icon-button-circled-medium-secondary{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: var(--second-main-color);
+    color: var(--white)
+}
+
+.icon-button-circled-medium-red{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: red;
+    color: var(--white)
+}
+
+.icon-button-circled-medium-orange{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: #E7A600;
+    color: var(--white)
+}
+
+.float{
+    position: fixed;
+    bottom: 53px;
+    right: 72px
+}

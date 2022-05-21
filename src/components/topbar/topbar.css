@@ -1,0 +1,22 @@
+.topbar__container{
+    width: 100%;
+    height: var(--topnav-height);
+    background-color: var(--white);
+    box-shadow: 4px 0px 16px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--blocks-margin-main);
+}
+
+.teacher__image{
+    width: auto;
+    height: 46px;
+    color: var(--second-main-color)
+}
+
+.teacher__image > img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+
+.checkbox{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    background-color: none;
+    border: 1px solid var(--first-main-color);
+    border-radius: var(--border-radius);
+    cursor: pointer
+}
+
+.checkbox:after{
+    font-family: FontAwesome, sans-serif;
+    content: "\f00c";
+    color: white;
+    display: none;
+    font-weight: 100;
+}
+
+.checkbox:checked{
+    background-color: var(--first-main-color);
+}
+
+.checkbox:checked:after{
+    display: block;
+}

@@ -1,0 +1,18 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.layout__container{
+    width: 100%;
+    margin-left: var(--sidebar-width)
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: var(--blocks-margin-main);
+    margin-bottom: 40px
+}

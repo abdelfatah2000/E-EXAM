@@ -1,0 +1,11 @@
+#input{
+    height: 30px;
+    width: 210px;
+    border: none;
+    padding: 15px 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: var(--border-radius);
+    background-color: var(--fields-background);
+    color: rgba(0, 0 , 0, 0.62)
+}

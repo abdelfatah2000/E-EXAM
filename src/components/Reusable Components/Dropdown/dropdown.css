@@ -1,0 +1,46 @@
+.menuList{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    background-color: var(--white);
+    color: black;
+    list-style: none;
+    box-shadow: var(--box-shadow-panels);
+    font-weight: 100;
+    border-radius: var(--border-radius);
+    z-index: 1;
+}
+
+.menuList > li {
+    padding: 7px 5px;
+    margin: 4px 4px;
+    border-radius: var(--border-radius);
+    width: 192px;
+    transition: .2s ease-in-out;
+}
+
+.menuList > li:hover{
+    background-color: #1d8c8c0e;
+}
+
+.animeDown{
+    top: 40px;
+    animation-name: anime;
+    animation-duration: 1s;
+}
+
+@keyframes animeDown {
+    from {top: 10px}
+    to {top: 40px}
+}
+
+.animeUp{
+    top: 10px;
+    animation-name: anime;
+    animation-duration: 1s;
+}
+
+@keyframes animeUp {
+    from {top: 40px}
+    to {top: 10px}
+}
