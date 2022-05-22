@@ -1,0 +1,608 @@
+{
+  "root": "e_exam",
+  "packages": [
+    {
+      "name": "e_exam",
+      "version": "1.0.0+1",
+      "kind": "root",
+      "source": "root",
+      "dependencies": [
+        "flutter",
+        "provider",
+        "google_fonts",
+        "hexcolor",
+        "flutter_native_splash",
+        "flutter_test",
+        "flutter_lints"
+      ]
+    },
+    {
+      "name": "flutter_lints",
+      "version": "1.0.4",
+      "kind": "dev",
+      "source": "hosted",
+      "dependencies": [
+        "lints"
+      ]
+    },
+    {
+      "name": "lints",
+      "version": "1.0.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "flutter_test",
+      "version": "0.0.0",
+      "kind": "dev",
+      "source": "sdk",
+      "dependencies": [
+        "flutter",
+        "test_api",
+        "path",
+        "fake_async",
+        "clock",
+        "stack_trace",
+        "vector_math",
+        "async",
+        "boolean_selector",
+        "characters",
+        "charcode",
+        "collection",
+        "matcher",
+        "material_color_utilities",
+        "meta",
+        "source_span",
+        "stream_channel",
+        "string_scanner",
+        "term_glyph",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.3.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "collection",
+      "version": "1.15.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "term_glyph",
+      "version": "1.2.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "string_scanner",
+      "version": "1.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "charcode",
+        "source_span"
+      ]
+    },
+    {
+      "name": "source_span",
+      "version": "1.8.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "path",
+        "term_glyph"
+      ]
+    },
+    {
+      "name": "path",
+      "version": "1.8.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "charcode",
+      "version": "1.3.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "stream_channel",
+      "version": "2.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "async"
+      ]
+    },
+    {
+      "name": "async",
+      "version": "2.8.2",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
+    },
+    {
+      "name": "meta",
+      "version": "1.7.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "material_color_utilities",
+      "version": "0.1.3",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "matcher",
+      "version": "0.12.11",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "stack_trace"
+      ]
+    },
+    {
+      "name": "stack_trace",
+      "version": "1.10.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "path"
+      ]
+    },
+    {
+      "name": "characters",
+      "version": "1.2.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "boolean_selector",
+      "version": "2.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "source_span",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "vector_math",
+      "version": "2.1.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "clock",
+      "version": "1.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "fake_async",
+      "version": "1.2.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "clock",
+        "collection"
+      ]
+    },
+    {
+      "name": "test_api",
+      "version": "0.4.8",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "async",
+        "boolean_selector",
+        "collection",
+        "meta",
+        "source_span",
+        "stack_trace",
+        "stream_channel",
+        "string_scanner",
+        "term_glyph",
+        "matcher"
+      ]
+    },
+    {
+      "name": "flutter",
+      "version": "0.0.0",
+      "kind": "direct",
+      "source": "sdk",
+      "dependencies": [
+        "characters",
+        "collection",
+        "material_color_utilities",
+        "meta",
+        "typed_data",
+        "vector_math",
+        "sky_engine"
+      ]
+    },
+    {
+      "name": "sky_engine",
+      "version": "0.0.99",
+      "kind": "transitive",
+      "source": "sdk",
+      "dependencies": []
+    },
+    {
+      "name": "flutter_native_splash",
+      "version": "2.1.5",
+      "kind": "direct",
+      "source": "hosted",
+      "dependencies": [
+        "args",
+        "flutter",
+        "flutter_web_plugins",
+        "image",
+        "js",
+        "lint",
+        "meta",
+        "path",
+        "universal_io",
+        "xml",
+        "yaml"
+      ]
+    },
+    {
+      "name": "yaml",
+      "version": "3.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "xml",
+      "version": "5.3.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "meta",
+        "petitparser"
+      ]
+    },
+    {
+      "name": "petitparser",
+      "version": "4.4.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "universal_io",
+      "version": "2.0.4",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "crypto",
+        "meta",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "lint",
+      "version": "1.8.2",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "js",
+      "version": "0.6.3",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "image",
+      "version": "3.1.3",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "archive",
+        "meta",
+        "xml"
+      ]
+    },
+    {
+      "name": "archive",
+      "version": "3.3.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "crypto",
+        "path"
+      ]
+    },
+    {
+      "name": "flutter_web_plugins",
+      "version": "0.0.0",
+      "kind": "transitive",
+      "source": "sdk",
+      "dependencies": [
+        "flutter",
+        "js",
+        "characters",
+        "collection",
+        "material_color_utilities",
+        "meta",
+        "typed_data",
+        "vector_math"
+      ]
+    },
+    {
+      "name": "args",
+      "version": "2.3.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "hexcolor",
+      "version": "2.0.6",
+      "kind": "direct",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "flutter_web_plugins"
+      ]
+    },
+    {
+      "name": "google_fonts",
+      "version": "2.3.1",
+      "kind": "direct",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "http",
+        "path_provider",
+        "crypto"
+      ]
+    },
+    {
+      "name": "path_provider",
+      "version": "2.0.9",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "path_provider_android",
+        "path_provider_ios",
+        "path_provider_linux",
+        "path_provider_macos",
+        "path_provider_platform_interface",
+        "path_provider_windows"
+      ]
+    },
+    {
+      "name": "path_provider_windows",
+      "version": "2.0.5",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "ffi",
+        "flutter",
+        "path",
+        "path_provider_platform_interface",
+        "win32"
+      ]
+    },
+    {
+      "name": "win32",
+      "version": "2.5.1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "ffi"
+      ]
+    },
+    {
+      "name": "ffi",
+      "version": "1.1.2",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "version": "2.0.3",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "platform",
+        "plugin_platform_interface"
+      ]
+    },
+    {
+      "name": "plugin_platform_interface",
+      "version": "2.1.2",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "platform",
+      "version": "3.1.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": []
+    },
+    {
+      "name": "path_provider_macos",
+      "version": "2.0.5",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "path_provider_platform_interface"
+      ]
+    },
+    {
+      "name": "path_provider_linux",
+      "version": "2.1.5",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "ffi",
+        "flutter",
+        "path",
+        "path_provider_platform_interface",
+        "xdg_directories"
+      ]
+    },
+    {
+      "name": "xdg_directories",
+      "version": "0.2.0+1",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "meta",
+        "path",
+        "process"
+      ]
+    },
+    {
+      "name": "process",
+      "version": "4.2.4",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "file",
+        "path",
+        "platform"
+      ]
+    },
+    {
+      "name": "file",
+      "version": "6.1.2",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "path_provider_ios",
+      "version": "2.0.8",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "path_provider_platform_interface"
+      ]
+    },
+    {
+      "name": "path_provider_android",
+      "version": "2.0.12",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter",
+        "path_provider_platform_interface"
+      ]
+    },
+    {
+      "name": "http",
+      "version": "0.13.4",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "http_parser",
+      "version": "4.0.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "charcode",
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "provider",
+      "version": "6.0.2",
+      "kind": "direct",
+      "source": "hosted",
+      "dependencies": [
+        "collection",
+        "flutter",
+        "nested"
+      ]
+    },
+    {
+      "name": "nested",
+      "version": "1.0.0",
+      "kind": "transitive",
+      "source": "hosted",
+      "dependencies": [
+        "flutter"
+      ]
+    }
+  ],
+  "sdks": [
+    {
+      "name": "Dart",
+      "version": "2.16.2"
+    },
+    {
+      "name": "Flutter",
+      "version": "2.10.4"
+    }
+  ],
+  "executables": []
+}
