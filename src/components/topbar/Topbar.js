@@ -17,9 +17,18 @@ function Topbar() {
   const dispatch = useDispatch()
   const history = useNavigate();
   const list = [
-    'Secondary One',
-    'Secondary Two',
-    'Secondary Three'
+    {
+      text: 'Secondary One',
+      id: 1
+    },
+    {
+      text: 'Secondary Two',
+      id: 2
+    },
+    {
+      text: 'Secondary Three',
+      id: 3
+    }
   ]
 
   const imgList = [

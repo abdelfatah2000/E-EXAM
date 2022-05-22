@@ -20,7 +20,7 @@ const Dropdown = ({toggle, list, onSelect, withInput, inputLabel, setList, w50})
           </li>
         }
         {list.map((l) => (
-          <li data-selected={l} data-id={l.id} onClick={onSelect}>{l}</li>
+          <li data-selected={l.text} data-id={l.id} onClick={onSelect}>{l.text}</li>
         ))}
 
     </ul>
